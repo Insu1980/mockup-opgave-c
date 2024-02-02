@@ -4,6 +4,7 @@
     margin: 0;
 }
 body {
+    font-family: roboto; 
     min-height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr 70px;
@@ -11,11 +12,36 @@ body {
 }
 header {
     background-color: #779882;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 main {}
 footer {
     background-color: #425348;
 }
-.fa-solid  {
-    font-size: 40px;
+header .fa-solid  {
+    font-size: 2rem;
+    color: black;
+}
+.fa-bars {
+    cursor: pointer;
+}
+.language-buttons {
+    text-align: right;
+    padding: 10px;
+    background-color: white;
+}
+img { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.h1 {
+    background-color: #779882;
+}
+@media only screen and (min-width: 800px) {
+
+
 }
