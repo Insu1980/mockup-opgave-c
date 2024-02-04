@@ -49,6 +49,7 @@ text-align: left;
     border-radius: 4rem;
 }
 .btn1 { 
+    display: inline-block;
     background-color: white;
     padding: 15px 30px;
     margin-bottom: 15px;
