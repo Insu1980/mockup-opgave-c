@@ -51,16 +51,17 @@ text-align: left;
 .btn1 { 
     display: inline-block;
     background-color: white;
-    padding: 15px 80px;
+    padding: 15px 60px;
     margin-bottom: 30px;
     border-radius: 1rem;
     color: black;
     text-decoration: none;
+   
 }
 .btn2 { 
     display: inline-block;
     background-color: white;
-    padding: 15px 80px;
+    padding: 15px 60px;
     margin-bottom: 30px;
     border-radius: 1rem;
     color: black;
@@ -70,7 +71,7 @@ text-align: left;
 .btn3 { 
     display: inline-block;
     background-color: white;
-    padding: 15px 80px;
+    padding: 15px 60px;
     margin-bottom: 30px;
     border-radius: 1rem;
     color: black;
@@ -79,7 +80,7 @@ text-align: left;
     
 .btn4 { 
     background-color: #779882;
-    padding: 15px 80px;
+    padding: 15px 60px;
     margin-bottom: 30px;
     border-radius: 1rem;
     color: white;
@@ -108,7 +109,8 @@ text-align: left;
     color: white;
     text-decoration: none;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 400px;
+  
 }
 footer {
     background-color: #425348;
@@ -167,6 +169,40 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 90px;
   
+}
+footer section:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
+footer section:nth-of-type(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+footer section:nth-of-type(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+}
+header .fa-solid  {
+    font-size: 2rem;
+    color: black;
+}
+.fa-bars {
+    cursor: pointer;
+}
+.language-buttons {
+    text-align: right;
+    padding: 10px;
+    background-color: white;
+}
+img { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 }
