@@ -51,32 +51,36 @@ text-align: left;
 .btn1 { 
     display: inline-block;
     background-color: white;
-    padding: 15px 30px;
-    margin-bottom: 15px;
+    padding: 15px 80px;
+    margin-bottom: 30px;
     border-radius: 1rem;
     color: black;
     text-decoration: none;
-    display: inline-block;
 }
 .btn2 { 
+    display: inline-block;
     background-color: white;
-    padding: 10px;
+    padding: 15px 80px;
+    margin-bottom: 30px;
     border-radius: 1rem;
     color: black;
     text-decoration: none;
-    display: inline-block;
+    
 }
 .btn3 { 
+    display: inline-block;
     background-color: white;
-    padding: 10px;
+    padding: 15px 80px;
+    margin-bottom: 30px;
     border-radius: 1rem;
     color: black;
     text-decoration: none;
-    display: inline-block;
 }
+    
 .btn4 { 
     background-color: #779882;
-    padding: 10px;
+    padding: 15px 80px;
+    margin-bottom: 30px;
     border-radius: 1rem;
     color: white;
     text-decoration: none;
@@ -84,11 +88,12 @@ text-align: left;
 }
 .hero h2 {
     color: white;
+    margin-bottom: 20px;
 }
 .h2  {
     text-align: center;
     font-size: 1,5em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: black;
 }
 .p  {
@@ -163,4 +168,5 @@ img {
     gap: 90px;
   
 }
+
 }
